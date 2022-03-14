@@ -1,0 +1,9 @@
+@mixin heading1 {
+    color:var(--primary-color);
+  }
+@mixin heading2 {
+    color:var(--secondary-color);
+  }
+@mixin heading4 {
+    color:var(--blue-color);
+  }

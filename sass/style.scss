@@ -1,0 +1,37 @@
+@import "utilities";
+@import "variables";
+@import "mixin";
+@import "animation";
+@import "header";
+@import "footer";
+@import "breadcrumps";
+@import "home";
+@import "about";
+@import "chat-sidebar";
+@import "services";
+@import "full-services";
+@import "forecast";
+@import "products-list";
+@import "product-details";
+@import "cart";
+@import "checkout";
+@import "blog";
+@import "register";
+@import "login";
+@import "contact";
+@import "404page";
+@import "responsive";
+@import "myresponsive";
+
+
+
+// Common Code
+.page-title{
+    @include heading2;
+}
+.page-sub-title{
+    @include heading1;
+}
+.invisble-para{
+    display: none !important;
+}

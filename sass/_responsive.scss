@@ -1,0 +1,810 @@
+/*
+*
+* ==========================================
+*          Devices ( 800px-1280px)
+* ==========================================
+*
+*/
+@media screen and (min-width: 800px) and (max-width: 1280px)
+{
+.astrology-nav .navbar .navbar-nav .nav-item a 
+{
+    font-size: 14px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.row {
+  padding-left: 15px;
+  padding-right: 15px; }
+
+.row .row {
+  padding: 0; 
+}
+#category_product.category_product .image {
+    width: 100%;
+    float: left;
+}
+#category_product.category_product .product-thumb .caption {
+    width: 100%;
+    margin-left: 0;
+}
+#category_product.category_product .product-thumb {
+    min-height: 350px !important;
+    margin-bottom: 20px;
+}
+#category_product.category_product h3, #category h3 {
+    font-size: 18px;
+}
+#products.products_section .product-thumb {
+    min-height: 400px;
+    margin-bottom: 30px;
+}
+#sidebar_blog.sidebar_blog .blog_text_matter {
+    margin-left: 15px;
+}
+}
+
+/*
+*
+* ==========================================
+*          Devices ( 769px-1024px)
+* ==========================================
+*
+*/
+@media screen and (min-width: 768px) and (max-width: 1024px)
+{
+.row 
+{
+    padding-left: 10px;
+	padding-right: 10px;
+}
+.top-header .col-lg-8
+{
+	width:75%;
+	float:left;
+	
+}
+.top-header .col-lg-4
+{
+	width:25%;
+	float:left;
+	
+}
+.astrology-responsive-menu img
+{
+	max-width:300px;
+	width:100%;
+}
+#category_product.category_product .image {
+    width: 100%;
+    float: left;
+}
+#category_product.category_product .product-thumb .caption {
+    width: 100%;
+    margin-left: 0;
+}
+#category_product.category_product .product-thumb {
+    min-height: 300px !important;
+    margin-bottom: 20px;
+}
+#category_product.category_product h3, #category h3 {
+    font-size: 18px;
+}
+#products.products_section .product-thumb {
+    min-height: 400px;
+    margin-bottom: 30px;
+}
+#blogs.blog_section .blog_inner_matter h3 {
+    line-height: 23px;
+    font-size: 16.5px;
+}
+#blogs.blog_section .blog_inner_matter .admin_and_comments {
+    font-size: 10px;
+}
+#sidebar_blog.sidebar_blog .blog_text_matter {
+    margin-left: 15px;
+}
+#sidebar_blog.sidebar_blog .blog_text_matter {
+    width: 100%;
+    margin-left: 0px;
+}
+#sidebar_blog.sidebar_blog .image {
+    width: 100%;
+    float: left;
+}
+}
+
+/*
+*
+* ==========================================
+*           Device (Mobile 991px)
+* ==========================================
+*
+*/
+@media only screen and (max-width: 991px) {
+    .astrology-responsive-nav {
+        display: block;
+    }
+    .astrology-responsive-nav .astrology-responsive-menu {
+        position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+    .astrology-responsive-nav .astrology-responsive-menu.mean-container .mean-nav {
+        margin-top: 60px;
+    }
+    .astrology-responsive-nav .astrology-responsive-menu.mean-container .mean-nav ul {
+        font-size: 14px;
+    }
+    .astrology-responsive-nav .astrology-responsive-menu.mean-container .mean-nav ul li a.active {
+        color: #ff7e00;
+    }
+    .astrology-responsive-nav .astrology-responsive-menu.mean-container .mean-nav ul li li a {
+        font-size: 14px;
+    }
+    .astrology-responsive-nav .astrology-responsive-menu.mean-container .navbar-nav {
+        overflow-y: scroll;
+        height: 341px;
+        -webkit-box-shadow: 0 7px 13px 0 rgba(0, 0, 0, 0.1);
+                box-shadow: 0 7px 13px 0 rgba(0, 0, 0, 0.1);
+    }
+    .astrology-responsive-nav .astrology-responsive-menu.mean-container .navbar-nav .nav-item.megamenu .dropdown-menu .nav-item {
+        overflow: hidden;
+    }
+    .astrology-responsive-nav .astrology-responsive-menu.mean-container .navbar-nav .nav-item.megamenu .dropdown-menu .nav-item .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .astrology-responsive-nav .astrology-responsive-menu.mean-container .navbar-nav .nav-item.megamenu .dropdown-menu .nav-item .row {
+        display: block;
+        -ms-flex-wrap: unset;
+            flex-wrap: unset;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: -20px;
+    }
+    .astrology-responsive-nav .astrology-responsive-menu.mean-container .navbar-nav .nav-item.megamenu .dropdown-menu .nav-item .row .col {
+        -ms-flex-preferred-size: unset;
+            flex-basis: unset;
+        -webkit-box-flex: unset;
+            -ms-flex-positive: unset;
+                flex-grow: unset;
+        max-width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 20px;
+    }
+    .astrology-responsive-nav .astrology-responsive-menu.mean-container .navbar-nav .nav-item.megamenu .dropdown-menu .nav-item .row .col:last-child {
+        margin-bottom: 15px;
+    }
+    .astrology-responsive-nav .astrology-responsive-menu.mean-container .navbar-nav .nav-item.megamenu .dropdown-menu .nav-item a {
+        width: 100%;
+        float: unset;
+        display: block;
+    }
+    .astrology-responsive-nav .astrology-responsive-menu.mean-container .navbar-nav .nav-item.megamenu .dropdown-menu .submenu-title {
+        color: #797979;
+        position: relative;
+        border-bottom: 1px solid #000000;
+        padding-bottom: 8px;
+        text-transform: uppercase;
+        margin-bottom: 5px;
+        margin-top: 25px;
+        margin-left: 15px;
+        margin-right: 15px;
+        font-size: 13.5px;
+        font-weight: 600;
+    }
+    .astrology-responsive-nav .astrology-responsive-menu.mean-container .navbar-nav .nav-item.megamenu .dropdown-menu .submenu-title:before {
+        width: 30px;
+        height: 1px;
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -1px;
+        background-color: #ff7e00;
+    }
+    .astrology-responsive-nav .astrology-responsive-menu.mean-container .navbar-nav .nav-item.megamenu .dropdown-menu .submenu-title:first-child {
+        margin-top: 5px;
+    }
+    .astrology-responsive-nav .astrology-responsive-menu.mean-container .navbar-nav .nav-item.megamenu .dropdown-menu a {
+        border-bottom: none !important;
+    }
+    .astrology-responsive-nav .astrology-responsive-menu.mean-container .navbar-nav .nav-item.megamenu .dropdown-menu .mean-expand {
+        display: none !important;
+    }
+    .astrology-responsive-nav .astrology-responsive-menu.mean-container .navbar-nav .nav-item.megamenu .dropdown-menu .megamenu-submenu {
+        width: auto;
+        overflow: hidden;
+        display: block !important;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .astrology-responsive-nav .astrology-responsive-menu.mean-container .navbar-nav .nav-item.megamenu .dropdown-menu .megamenu-submenu li a {
+        border: none;
+        margin-top: 15px;
+        color: #666666;
+        padding: 0;
+        font-weight: 400;
+    }
+    .astrology-responsive-nav .astrology-responsive-menu.mean-container .navbar-nav .nav-item.megamenu .dropdown-menu .megamenu-submenu li a:hover, .astrology-responsive-nav .astrology-responsive-menu.mean-container .navbar-nav .nav-item.megamenu .dropdown-menu .megamenu-submenu li a.active {
+        color: #ff7e00;
+    }
+    .astrology-responsive-nav .astrology-responsive-menu.mean-container .navbar-nav .nav-item.megamenu .dropdown-menu .megamenu-submenu .aside-trending-products {
+        overflow: hidden;
+        position: relative;
+        text-align: center;
+    }
+    .astrology-responsive-nav .astrology-responsive-menu.mean-container .navbar-nav .nav-item.megamenu .dropdown-menu .megamenu-submenu .aside-trending-products img {
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+    }
+    .astrology-responsive-nav .astrology-responsive-menu.mean-container .navbar-nav .nav-item.megamenu .dropdown-menu .megamenu-submenu .aside-trending-products .category {
+        position: absolute;
+        left: 0;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+        right: 0;
+        bottom: 0;
+        background-color: #ff9900;
+        padding: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .astrology-responsive-nav .astrology-responsive-menu.mean-container .navbar-nav .nav-item.megamenu .dropdown-menu .megamenu-submenu .aside-trending-products .category h4 {
+        text-transform: uppercase;
+        margin-bottom: 0;
+        position: relative;
+        z-index: 1;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .astrology-responsive-nav .astrology-responsive-menu.mean-container .navbar-nav .nav-item.megamenu .dropdown-menu .megamenu-submenu .aside-trending-products .link-btn {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        width: 100%;
+        height: 100%;
+        z-index: 3;
+    }
+      .astrology-responsive-nav .astrology-responsive-menu.mean-container .navbar-nav .nav-item.megamenu .dropdown-menu .megamenu-submenu .aside-trending-products:not(:first-child) {
+        margin-top: 15px;
+      }
+    .astrology-responsive-nav .astrology-responsive-menu.mean-container .navbar-nav .nav-item.megamenu .dropdown-menu .megamenu-submenu .aside-trending-products:hover img {
+        -webkit-transform: scale(1.3);
+                transform: scale(1.3);
+    }
+    .astrology-responsive-nav .astrology-responsive-menu.mean-container .navbar-nav .nav-item.megamenu .dropdown-menu .megamenu-submenu .aside-trending-products:hover .category {
+        bottom: 10px;
+    }
+    .astrology-responsive-nav .astrology-responsive-menu.mean-container .navbar-nav .nav-item.megamenu .dropdown-menu .brand-slides {
+        margin-top: 0;
+        border-top: none;
+        border-bottom: none;
+        border-left: none;
+    }
+    .astrology-responsive-nav .astrology-responsive-menu.mean-container .navbar-nav .nav-item.megamenu .dropdown-menu .brand-slides .brand-item a {
+        display: block !important;
+        padding: 20px !important;
+        width: auto !important;
+    }
+    .astrology-responsive-nav .astrology-responsive-menu.mean-container .others-option {
+        display: none !important;
+    }
+    .astrology-responsive-nav .mean-container a.meanmenu-reveal {
+        color: #797979;
+    }
+    .astrology-responsive-nav .mean-container a.meanmenu-reveal span {
+        background: #797979;
+    }
+    .astrology-responsive-nav .logo {
+        position: relative;
+        width: 30%;
+        z-index: 1;
+        float: left;
+    }
+    .astrology-responsive-nav .logo a {
+        display: inline-block;
+    }
+    .astrology-nav {
+        display: none;
+    }
+    .navbar-area {
+        background-color: var(--white-color);
+    }
+    .navbar-area.navbar-style-two .astrology-responsive-nav .mean-container a.meanmenu-reveal {
+        color: #ffffff;
+    }
+    .navbar-area.navbar-style-two .astrology-responsive-nav .mean-container a.meanmenu-reveal span {
+        background: #d18787;
+    }
+    .astrology-responsive-nav .others-option {
+        margin-left: 0;
+        padding-left: 0;
+        width: 50%;
+        float: right;
+        text-align: right;
+    }
+    .astrology-responsive-nav .others-option:before {
+        left: auto;
+        right: 0;
+    }
+    }
+
+/*
+*
+* ==========================================
+*          Devices ( 320px-992px)
+* ==========================================
+*
+*/
+@media screen and (min-width: 320px) and (max-width: 992px)
+{
+.navbar-area.is-sticky {
+    -webkit-animation: none;
+    animation: none;
+}
+#footer .footer_newslatter strong {
+    font-size: 18px;
+    line-height: 30px;
+}
+#footer .footer_newslatter .box p {
+    font-size: 15px;
+}
+#footer {
+    padding: 50px 0;
+}
+#footer .footer_matter .col-xs-12
+{
+	width:25%;
+	float:left;
+}
+#footer .box:after {
+    right: -420px;
+}
+.top-header {
+    display: none;
+}
+#products.products_section .col-sm-4
+{
+	width:50%;
+}
+#blogs.blog_section.blog_margin .col-sm-3
+{
+	width:33.3333%;
+	float:left;
+}
+#blogs.blog_section .blog_inner_matter h3 {
+    line-height: 23px;
+    font-size: 16.5px;
+}
+#blogs.blog_section .blog_inner_matter .admin_and_comments {
+    font-size: 10px;
+}
+}
+
+/*
+*
+* ==========================================
+*          Devices ( 320px-768px)
+* ==========================================
+*
+*/
+@media screen and (min-width: 320px) and (max-width: 768px)
+{
+.row 
+{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 0!important;
+}
+.astrology-responsive-menu img
+{
+    width: 100%;
+	margin-left: 10px;
+}
+.top-header .col-lg-8
+{
+	width:75%;
+	float:left;
+	
+}
+.top-header .col-lg-4
+{
+	width:25%;
+	float:left;
+	
+}
+#about_us.about_section h2 {
+    font-size: 24px;
+}
+#about_us.about_section h3 {
+    font-size: 20px;
+}
+#about_us.about_section h2.about_contact {
+    font-size: 24px;
+}
+#about_us.about_section .row, #website_visitors.astrologers-work .row 
+{
+    display: -webkit-box;
+    display: -ms-inline-block;
+    display: inline-block;
+}
+#about_us.about_section .about_text
+{
+    margin-bottom: 30px;
+}
+
+#zodiac_Sign.rashi_wrapper .col-xs-12 {
+    width: 33.3333%;
+}
+#website_visitors .astrologers_visitors .col-sm-6
+{
+	 width: 50%;
+	 float: left;
+}
+#services .col-sm-4
+{
+	width: 50%;
+	 float: left;
+}
+#footer .footer_matter .col-xs-12
+{
+	width:50%;
+	float:left;
+}
+.menu_open {
+    font-size: 16px;
+}
+#footer .footer_list_wrapper
+{
+    min-height: 400px;
+}
+.footer_newslatter .col-sm-4
+{
+	display:none;	
+}
+.footer_newslatter .col-sm-5
+{
+	width:60%;
+	float:left;
+}
+.footer_newslatter .col-sm-3
+{
+	width:40%;
+	float:left;
+}
+
+#footer .box:after {
+    right: -500px;
+}
+#about_us.about_section, #testimonials.testimonial_section {
+    padding: 40px 0;
+}
+.heading_wrapper h2 {
+    font-size: 20px;
+}
+.heading_wrapper p {
+    line-height: 20px;
+    margin-bottom: 25px;
+    font-size: 12px;
+}
+#products.products_section {
+    padding: 40px 0 0;
+}
+html body .owl-carousel .owl-buttons .owl-prev, html body .owl-carousel .owl-buttons .owl-next {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+}
+#footer {
+    padding: 40px 0;
+}
+#blogs.blog_section {
+    padding: 40px 0;
+}
+#services.services_section {
+    padding: 40px 0 20px;
+}
+#content.about_page {
+    padding: 40px 0 0;
+}
+.main_breadcrumb {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.breadcrumb-content h2 {
+    font-size: 28px;
+}
+.breadcrumb-content ul li {
+    font-size: 14px;
+}
+#content {
+    padding: 40px 0;
+}
+.not_found h1 {
+    font-size: 100px;
+}
+.not_found h2 {
+    font-size: 30px;
+    letter-spacing: 0;
+}
+.not_found img {
+    max-width: 300px;
+    margin-bottom: 17px;
+}
+#cart .table-custom th {
+    padding: 15px 25px;
+    font-size: 14px;
+}
+#cart .table-cart tbody tr td {
+    font-size: 13px;
+}
+#cart .table-cart-figure img {
+    max-width: 100px;
+    height: auto;
+}
+#cart .eb-form-inline .form-button .btn {
+    min-width: 120px;
+}
+#cart .group-middle a {
+    min-width: 190px;
+}
+#cart .font-weight-normal {
+    font-size: 24px;
+}
+#cart .eb-form input {
+    width: 170px;
+}
+#cart .eb-form-inline .form-wrap {
+    min-width: 170px;
+    width: 170px;
+}
+.table-custom-responsive
+{
+    overflow: auto;
+}
+#checkout .eb-form input[type="checkbox"] {
+    width: auto;
+}
+#checkout .form-checkout 
+{
+	margin-bottom:30px;
+}
+#checkout .billing_and_payment_option {
+    margin-bottom: 20px;
+}
+#checkout .your_cart h2 {
+    font-size: 24px;
+}
+.payment_method .col-sm-6
+{
+	margin-bottom:30px;
+}
+#checkout .payment_method .table-custom-responsive a {
+    min-width: 190px;
+}
+.single_products_left_side
+{
+    margin-top: 20px;
+}
+#blogs.blog_section.blog_margin .col-sm-3
+{
+	width:50%;
+	float:left;
+}
+#blogs .blog_section .col-sm-9
+{
+	clear: both;
+}
+#blogs.blog_section.blog_margin_sidbar .eb_left .col-sm-4
+{
+	width:50%;
+	float:left;
+}
+#blogs.blog_section {
+    padding: 0px !important;
+}
+.blog_right_side #blogs.blog_section .eb_right, .blog_details #blogs.blog_section .eb_right
+{
+	margin-top:30px;
+}
+.contact_page .contact-box-wrap, #register .registration
+{
+    margin-top: 30px;
+}
+.contact-box {
+    max-width: 100%;
+    padding-left: 0;
+    border-left: 0;
+}
+.login_box {
+    padding: 20px;
+}
+}
+
+/*
+*
+* ==========================================
+*          Devices ( 320px-600px)
+* ==========================================
+*
+*/
+@media screen and (min-width: 320px) and (max-width: 600px)
+{
+.astrology-responsive-menu .option-item .btn
+{
+	display:none;
+}
+.astrology-responsive-nav .others-option {
+    width: 40%;
+}
+#about_us.about_section h2 {
+    font-size: 18px;
+}
+#zodiac_Sign.rashi_wrapper .col-xs-12 {
+    width: 50%;
+}
+.others-option .option-item .search-btn-box .search-btn {
+    font-size: 18px;
+}
+.others-option .option-item .cart-btn {
+    font-size: 18px;
+}
+.others-option .option-item .cart-btn a span {
+    right: -9px;
+    top: -6px;
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+}
+.others-option:before {
+    height: 18px;
+}
+#services .col-sm-4 {
+    width: 100%;
+    float: left;
+}
+#footer .footer_matter .col-xs-12 {
+    width: 100%;
+    float: left;
+}
+#footer .footer_list_wrapper
+{
+    min-height: auto;
+}
+.footer_newslatter .col-sm-5 {
+    width: 100%;
+    float: left;
+}
+.footer_newslatter .col-sm-3 {
+    width: 100%;
+    float: left;
+}
+#footer .footer_newslatter .row {
+    display: -webkit-inline-block;
+    display: -ms-inline-block;
+    display: inline-block;
+}
+.footer_newslatter .box
+{
+	text-align:center;
+}
+#footer .footer_newslatter strong {
+    margin-bottom: 10px;
+}
+#footer .footer_newslatter {
+    padding: 15px 14px 20px 15px;
+    border-radius: 10px;
+}
+#footer .footer_matter h2 {
+    font-size: 20px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+#footer .box:after {
+    right: -650px;
+}
+#about_us.about_section p {
+    line-height: 24px;
+    font-size: 13px;
+}
+.full_services_page .services_matter p {
+    font-size: 13px;
+    line-height: 24px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 20px;
+}
+.forecast_page .eb_matter p {
+    font-size: 13px;
+}
+#products.products_section .col-sm-4 {
+    width: 100%;
+}
+#products.products_section .product-thumb {
+    min-height: auto;
+}
+#category_product.category_product .product-thumb .caption {
+    margin-left: 15px;
+}
+#checkout .radio-panel .radio-inline {
+    font-size: 14px;
+}
+#checkout .payment_method td {
+    font-size: 14px;
+}
+#products_products .single_products_left_side .add-to-box .btn-cart {
+    font-size: 13px;
+    padding: 7px 13px 6px;
+    margin-left: 9px;
+}
+.custom button.items-count {
+    width: 35px;
+}
+#products_products .single_products_left_side .add-to-links li {
+    width: 100%;
+    margin-bottom: 15px;
+}
+#products_products .single_products_left_side .email-friend
+{
+	 width: 100%;
+}
+.nav-tabs.product-tabs > li {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.eb-Reviews-title {
+    font-size: 13px;
+}
+p {
+    font-size: 13px;
+}
+#products_products .single_products_left_side ul.add-to-links {
+    width: 100%;
+}
+#products_products .single_products_left_side .add-to-links li {
+    padding: 0px 0px 0px 0px;
+}
+#blogs.blog_section.blog_margin .col-sm-3
+{
+	width:100%;
+	float:left;
+}
+#blogs.blog_section.blog_margin_sidbar .eb_left .col-sm-4
+{
+	width:100%;
+	float:left;
+}
+#mySidenav ul {
+	max-height: 350px;
+    overflow: auto;
+}
+}
+
+/*
+*
+* ==========================================
+*  Small devices (Mobile 300px)
+* ==========================================
+*
+*/
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+  }
+
+
+  

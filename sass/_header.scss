@@ -1,0 +1,787 @@
+/*
+*
+* ==========================================
+*                Logo
+* ==========================================
+*
+*/
+img.logo-img {
+  width: 127px;
+  height: 125px;
+}
+/*
+*
+* ==========================================
+*                Header
+* ==========================================
+*
+*/
+
+.top-header {
+    background-color: #001e3a;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .top-header-social.header_account li a {
+      display: block;
+      margin-right: 5px;
+      color: #ffffff;
+      font-size: 14px;
+  }
+  .top-header-social.header_account li a:last-child {
+      margin-right: 0;
+  }
+  .top-header-social.header_account li a span
+  {
+      margin-left: 5px;
+  }
+  .top-header-social.header_account li a i
+  {
+      color: var(--secondary-color);
+      margin-right: 3px;
+  }
+  .top-header-social.header_account li {
+      margin-right: 5px;
+  }
+  .top-header-social.header_account li a:hover {
+    color: var(--secondary-color);
+    -webkit-transform:none;
+    transform: none;
+  }
+  .top-header-social {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+    float: right;
+  }
+  
+  .top-header-social li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .top-header-social li a {
+    display: block;
+    color: var(--secondary-color);
+    font-size: 20px;
+  }
+  
+  .top-header-social li a:hover {
+    color: #004b74;
+    -webkit-transform: translateY(-2px);
+            transform: translateY(-2px);
+  }
+  
+  .top-header-social li:last-child {
+    margin-right: 0;
+  }
+  
+  .top-header-contact-info {
+    padding-left: 0;
+    margin-bottom: 0;
+    text-align: left;
+    list-style-type: none;
+  }
+  
+  .top-header-contact-info li {
+    display: inline-block;
+    margin-right: 10px;
+    color: #3f6872;
+    font-size: 14px;
+    position: relative;
+  }
+  
+  .top-header-contact-info li i {
+      color: var(--secondary-color);
+      margin-right: 3px;
+  }
+  
+  .top-header-contact-info li a {
+    display: inline-block;
+    font-weight: 600;
+  }
+  
+  .top-header-contact-info li:first-child {
+    margin-left: 0;
+  }
+  
+  .navbar-area {
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  
+  .navbar-area.is-sticky {
+    visibility: visible;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9;
+    box-shadow: 0 2px 28px 0 #0000000f;
+    background: var(--white-color);
+    animation: .5s ease-in-out 0s normal none 1 running fadeInDown;
+  }
+  
+  
+  .navbar-brand>h1{
+      display: block;
+      max-width: 300px;
+  }
+  .astrology-nav .navbar-collapse.collapse {
+      display: -ms-flexbox!important;
+      display: flex!important;
+      -ms-flex-preferred-size: auto;
+      flex-basis: auto;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      margin-top: 5px;
+      padding-right:0px;
+  }
+  .navbar-area.navbar-style-two {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    height: auto;
+  }
+  
+  /*
+*
+* ==========================================
+*             Mobile Menu
+* ==========================================
+*
+*/
+  /* mobile Menu */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 0;
+    z-index: 9;
+  }
+  
+  .sidenav a {
+      padding: 10px 0;
+      text-decoration: none;
+      color: #797979;
+      transition: 0.3s;
+      text-transform: capitalize;
+  }
+  .sidenav a:hover {
+    color: var(--secondary-color);
+  }
+  
+  .sidenav .closebtn {
+      position: absolute;
+      top: 10px;
+      right: 20px;
+      font-size: 36px;
+      margin-left: 0;
+  }
+  .menu_open
+  {
+      color: var(--secondary-color);
+      font-size: 24px;
+      cursor: pointer;
+      margin-right: 20px;
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      -ms-transition: all 0.5s;
+      -moz-transition: all 0.5s;
+      transition: all 0.5s;
+  }
+  .menu_open:hover
+  {
+      color: #37a4dd;
+  }
+  #mySidenav .mobile_menu_li
+  {
+      position:relative;
+  }
+  #mySidenavg .mobile_menu_li .head
+  {
+      position: absolute;
+      right: 10px;
+      top: 15px;
+  }
+     
+  #mySidenav .panel.mobile_menu_li {
+      margin-bottom: 0;
+      background-color: #c9dcff;
+      border-bottom: 1px solid rgb(0, 25, 92) !important;
+      border-radius: 0;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      border: 0;
+      padding: 15px 0;
+  }
+  #mySidenav h3
+  {
+      margin: 0;
+      padding: 0 0 15px;
+      font-size: 20px;
+      color: var(--secondary-color);
+      border-bottom: 1px solid #eee;
+  }
+  #mySidenav .mobile_menu_li ul li a
+  {
+      padding: 5px 15px;
+      font-size: 13px;
+      display: inline-block;
+  }
+  #mySidenav .mobile_menu_li ul
+  {
+       padding: 20px 0px 0px;
+  }
+  #mySidenav ul li .head .collapsed .plus {
+      display: block;
+      font-size: 20px;
+  }
+  #mySidenav ul li .head .minus {
+      font-size: 20px;
+  }
+  #mySidenav ul li .head .plus {
+      display: none;
+  }
+  #mySidenav ul li .head .collapsed .minus {
+      display: none;
+  }
+  #mySidenav .mobile_menu_li .head {
+      position: absolute;
+      right: 10px;
+      top: 15px;
+  }
+  #mySidenav .menu_slid_bg {
+      background: #c9dcff;
+      max-width: 250px;
+      position: relative;
+      height: 100%;
+      padding: 50px 15px;
+  }
+  #mySidenav ul {
+      list-style: none;
+      padding: 0px;
+      margin: 0;
+      max-height: 500px;
+      overflow: auto;
+  }
+  
+  
+  /* mobile Menu */
+  .astrology-responsive-nav {
+    display: none;
+  }
+  
+  .astrology-nav {
+      background-color: white;
+      padding-top: 20px;
+      padding-bottom: 13px;
+  }
+  .astrology-nav .navbar {
+      padding-left: 0;
+      padding-right: 0;
+      padding-top: 0;
+      padding-bottom: 0;
+      margin: 0;
+      min-height: 0;
+      border:0px;
+  }
+  
+  .astrology-nav .navbar .navbar-brand {
+      font-size: inherit;
+      line-height: 1;
+      padding-top: 12px;
+      padding-bottom: 0;
+      padding-left: 0;
+      padding-right: 0;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+  }
+  
+  .astrology-nav .navbar ul {
+    padding-left: 0;
+    list-style-type: none;
+    margin-bottom: 0;
+  }
+  
+  .astrology-nav .navbar .navbar-nav {
+    margin-left: auto;
+  }
+  
+  .astrology-nav .navbar .navbar-nav .nav-item {
+    position: relative;
+  }
+  
+  .astrology-nav .navbar .navbar-nav .nav-item a {
+      color: #797979;
+      font-size: 15px;
+      font-weight: 600;
+      padding-left: 0;
+      padding-right: 0;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      margin-left: 12px;
+      margin-right: 12px;
+  }
+  
+  .astrology-nav .navbar .navbar-nav .nav-item a i {
+      font-size: 18px;
+      position: relative;
+      display: inline-block;
+      margin-left: 3px;
+  }
+  
+  .astrology-nav .navbar .navbar-nav .nav-item a:hover, .astrology-nav .navbar .navbar-nav .nav-item a:focus, .astrology-nav .navbar .navbar-nav .nav-item a.active {
+    color: var(--secondary-color);
+  }
+  
+  .astrology-nav .navbar .navbar-nav .nav-item:last-child a {
+    margin-right: 0;
+  }
+  
+  .astrology-nav .navbar .navbar-nav .nav-item:first-child a {
+    margin-left: 0;
+  }
+  
+  .astrology-nav .navbar .navbar-nav .nav-item:hover a, .astrology-nav .navbar .navbar-nav .nav-item.active a {
+    color: var(--secondary-color);
+  }
+  
+  .astrology-nav .navbar .navbar-nav .nav-item .dropdown-menu {
+      -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+      box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+      background: var( --white-color);
+      position: absolute;
+      border: none;
+      top: 40px;
+      left: 0;
+      width: 220px;
+      z-index: 99;
+      display: block;
+      opacity: 0;
+      visibility: hidden;
+      border-radius: 0;
+      margin: 0;
+      -webkit-transition: all 0.2s ease-in-out;
+      transition: all 0.2s ease-in-out;
+      padding: 0;
+      -webkit-transform: scaleX(0);
+      transform: scaleX(0);
+  }
+  
+  .astrology-nav .navbar .navbar-nav .nav-item .dropdown-menu li a {
+      padding: 13px 20px 11px;
+      margin: 0;
+      position: relative;
+      display: block;
+      color: #797979;
+      border-bottom:#000000;
+      text-transform: capitalize;
+      font-size: 15px;
+      font-weight: 500;
+  }
+  .astrology-nav .navbar .navbar-nav .nav-item .dropdown-menu li a i {
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      font-size: 20px;
+      -webkit-transform: translateY(-50%);
+      transform: translateY(-50%);
+      right: 10px;
+  }
+  .astrology-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:hover, .astrology-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:focus, .astrology-nav .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
+      color: var(--secondary-color);
+  }
+  .astrology-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu {
+      left: -220px;
+      top: 0;
+      opacity: 0;
+      visibility: hidden;
+      -webkit-transform: scaleY(0);
+      transform: scaleY(0);
+  }
+  .astrology-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a {
+      color: #797979;
+  }
+  .astrology-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:hover, .astrology-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:focus, .astrology-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a.active {
+    color: var(--secondary-color);
+  }
+  .astrology-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu {
+      left: 250px;
+      top: 0;
+      opacity: 0;
+      visibility: hidden;
+      -webkit-transform: scaleY(0);
+      transform: scaleY(0);
+  }
+  
+  .astrology-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
+    color: #797979;
+  }
+  
+  .astrology-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .astrology-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .astrology-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
+    color: var(--secondary-color);
+  }
+  
+  .astrology-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
+    left: -220px;
+    top: 0;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: scaleY(0);
+            transform: scaleY(0);
+  }
+  
+  .astrology-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
+    color: #797979;
+  }
+  
+  .astrology-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .astrology-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .astrology-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
+    color: var(--secondary-color);
+  }
+  
+  .astrology-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
+    left: 250px;
+    top: 0;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: scaleY(0);
+            transform: scaleY(0);
+  }
+  
+  .astrology-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
+    color: #797979;
+  }
+  
+  .astrology-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .astrology-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .astrology-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
+    color: var(--secondary-color);
+  }
+  
+  .astrology-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
+    left: -250px;
+    top: 0;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: scaleY(0);
+            transform: scaleY(0);
+  }
+  
+  .astrology-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
+    color: #797979;
+  }
+  
+  .astrology-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .astrology-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .astrology-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
+    color: var(--secondary-color);
+  }
+  
+  .astrology-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
+    left: 250px;
+    top: 0;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: scaleY(0);
+            transform: scaleY(0);
+  }
+  
+  .astrology-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
+    color: #797979;
+  }
+  
+  .astrology-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .astrology-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .astrology-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
+    color: var(--secondary-color);
+  }
+  
+  .astrology-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
+    color: var(--secondary-color);
+  }
+  
+  .astrology-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+  
+  .astrology-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
+    color: var(--secondary-color);
+  }
+  
+  .astrology-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+  
+  .astrology-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
+    color: var(--secondary-color);
+  }
+  
+  .astrology-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+  
+  .astrology-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
+    color: var(--secondary-color);
+  }
+  
+  .astrology-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+  
+  .astrology-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li.active a {
+    color: var(--secondary-color);
+  }
+  
+  .astrology-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+  
+  .astrology-nav .navbar .navbar-nav .nav-item .dropdown-menu li.active a {
+    color: var(--secondary-color);
+  }
+  
+  .astrology-nav .navbar .navbar-nav .nav-item .dropdown-menu li:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+  
+  .astrology-nav .navbar .navbar-nav .nav-item:hover .dropdown-menu {
+      opacity: 1;
+      visibility: visible;
+      -webkit-transform: scaleX(1);
+      transform: scaleX(1);
+  }
+  
+  .others-option {
+      position: relative;
+      margin-left: 18px;
+      padding-left: 18px;
+  }
+  
+  .others-option:before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 5px;
+      width: 2px;
+      height: 25px;
+      background-color: #bdbbcc;
+  }
+  
+  .others-option .option-item {
+      display: inline-block;
+      margin-left: 20px;
+      position: relative;
+      z-index: 3;
+  }
+  
+  .others-option .option-item:first-child {
+      margin-left: 0;
+  }
+  
+  .others-option .option-item .search-btn-box {
+      position: relative;
+      top: 2px;
+  }
+  
+  .others-option .option-item .search-btn-box .search-btn {
+      font-size: 25px;
+      cursor: pointer;
+      color: #797979;
+      -webkit-transition: 0.5s;
+      transition: 0.5s;
+  }
+  
+  .others-option .option-item .search-btn-box .search-btn:hover {
+      color: var(--secondary-color);
+  }
+  
+  .others-option .option-item .cart-btn {
+      font-size: 25px;
+      position: relative;
+      line-height: 1;
+  }
+  
+  .others-option .option-item .cart-btn a {
+      display: inline-block;
+      position: relative;
+      color: #797979;
+  }
+  
+  .others-option .option-item .cart-btn a span {
+      position: absolute;
+      right: -7px;
+      top: -7px;
+      width: 17px;
+      height: 17px;
+      text-align: center;
+      line-height: 17px;
+      border-radius: 50%;
+      color: #ffffff;
+      background-color: var(--secondary-color);
+      font-size: 10px;
+      font-weight: 600;
+  }
+  
+  .others-option .option-item .cart-btn a:hover {
+      color: var(--secondary-color);
+  }
+  
+  .others-option .option-item .default-btn {
+      border-color: #797979;
+      background-color: #797979;
+      color: #ffffff;
+  }
+  
+  .others-option .option-item .default-btn:hover {
+      background-color: var(--secondary-color);
+      color: #ffffff;
+      border-color: var(--secondary-color);
+  }
+
+  /*
+*
+* ==========================================
+*                Search
+* ==========================================
+*
+*/
+
+
+/* Search Style */ 
+#search {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    -webkit-transition: all 0.5s ease-in-out;
+       -moz-transition: all 0.5s ease-in-out;
+        -ms-transition: all 0.5s ease-in-out;
+	       -o-transition: all 0.5s ease-in-out;
+            transition: all 0.5s ease-in-out;
+    -webkit-transform: translate(0px, -100%) scale(0, 0);
+	     -moz-transform: translate(0px, -100%) scale(0, 0);
+	      -ms-transform: translate(0px, -100%) scale(0, 0);
+         -o-transform: translate(0px, -100%) scale(0, 0);
+	          transform: translate(0px, -100%) scale(0, 0);    
+    opacity: 0;
+    display: none;
+}
+
+#search.open {
+    -webkit-transform: translate(0px, 0px) scale(1, 1);
+       -moz-transform: translate(0px, 0px) scale(1, 1);
+    	  -ms-transform: translate(0px, 0px) scale(1, 1);
+	       -o-transform: translate(0px, 0px) scale(1, 1);
+	           transform: translate(0px, 0px) scale(1, 1); 
+    opacity: 1;
+    z-index: 999;
+    display: block;
+}
+
+#search input[type="search"] {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -51px;
+    width: 60%;
+    margin-left: 20%;
+    color: rgb(255, 255, 255);
+    background: transparent;
+    border-bottom: 2px solid rgba(255, 255, 255, .5);
+    border-left: 0px solid transparent;
+    border-right: 0px solid transparent;
+    font-size: 40px;
+    font-family: Roboto;
+    font-weight: 300;
+    outline: none;
+    padding: 10px;
+    border-top: 0;
+    text-align: left;
+}
+
+#search input[type="search"].placeholder {
+    text-align: center;
+}
+  
+#search .close {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+	  opacity: 1;
+	  font-size: 27px;
+  	color: #fff;
+	 -webkit-transition: all 0.5s ease-in-out;
+       -moz-transition: all 0.5s ease-in-out;
+        -ms-transition: all 0.5s ease-in-out;
+	       -o-transition: all 0.5s ease-in-out;
+            transition: all 0.5s ease-in-out;
+}
+
+#search .close:hover{
+  color: #ff4562;
+  cursor: pointer;
+}
+#search form
+{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 66px;
+    bottom: 0;
+	top:0;
+}
+#search .input-group-btn .btn
+{
+    top: 4px;
+    margin-right: 20%;
+    font-weight: 300;
+    text-align: center;
+    border: 0;
+    height: 0;
+    z-index: 999;
+    box-shadow: none;
+    background: transparent;
+    float: right;
+    font-size: 21px;
+    color: #fff;
+    right: 0;
+    outline: none;
+}

@@ -1,0 +1,142 @@
+/*
+*
+* ==========================================
+*          Forecast Page
+* ==========================================
+*
+*/
+
+.forecast-row.row {
+    background: white;
+    padding-block: 4rem;
+}
+.forecast_page .eb_matter h2
+{
+    margin-bottom: 15px;
+}
+h4.forecast-title {
+    text-transform: uppercase;
+}
+
+
+// forecast image box
+
+.Forecast-image-box {
+    width: 45vw;
+    margin: 0 auto;
+}
+img.forecat-pic.wow.fadeInDown.animated {
+    width: 100%;
+}
+
+
+.forecast_page .eb_matter img
+{
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+.forecast_page .eb_matter h2 i
+{
+	color:var(--secondary-color);
+	margin-right:5px;
+}
+.forecast_page .eb_matter p
+{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+#content.forecast_page .aries_wrapper .social_media
+{
+    margin-bottom: 30px;
+}
+#content.forecast_page .aries_wrapper .social_media ul li.facebook a i
+{
+   color:#3b5998;
+}
+#content.forecast_page .aries_wrapper .social_media ul li.twitter a i
+{
+   color:#00acee;
+}
+#content.forecast_page .aries_wrapper .social_media ul li.instagram a i
+{
+   color:#3f729b;
+}
+#content.forecast_page .aries_wrapper .social_media ul li.google a i
+{
+   color:var(--secondary-hover-color) ;
+}
+#content.forecast_page .aries_wrapper .social_media ul li.youtube a i
+{
+   color:var(--secondary-hover-color);
+}
+
+#content.forecast_page .aries_wrapper .social_media ul li.facebook a:hover 
+{
+   color:#3b5998;
+}
+#content.forecast_page .aries_wrapper .social_media ul li.twitter a:hover  
+{
+   color:#00acee;
+}
+#content.forecast_page .aries_wrapper .social_media ul li.instagram a:hover  
+{
+   color:#3f729b;
+}
+#content.forecast_page .aries_wrapper .social_media ul li.google a:hover 
+{
+   color:var(--secondary-hover-color);
+}
+#content.forecast_page .aries_wrapper .social_media ul li.youtube a:hover  
+{
+   color:var(--secondary-hover-color);
+}
+
+
+
+/* forecast_page */
+#category h3
+{
+    padding: 0 0 15px 0;
+}
+#category ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    list-style: none;
+}
+#category ul li
+{
+    margin-bottom: 10px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+#category ul li:last-child
+{
+    border-bottom: 0;
+}
+#category ul li a
+{
+    font-size: 16px;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+	color:#797979;
+}
+#category ul li a:hover
+{
+	color:var(--secondary-color);
+}
+#category ul li a i
+{
+    margin-right: 5px;
+    color: var(--secondary-color);
+	  -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+#category ul li a:hover i
+{
+    margin-right: 0px;
+}

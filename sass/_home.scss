@@ -1,0 +1,616 @@
+
+/*
+* ==========================================
+*       Hero Sectn--Home Slider
+* ==========================================
+*/
+.hero-sectn {
+    //    background-image: url(../assets/image/background-img/space.jpg);
+      // background:linear-gradient(0deg, #ff00964d, #ff00964d), url(../assets/image/background-img/space.jpg);
+      background: linear-gradient(127deg, #2d4da7b8, #4b00ff54), url(../assets/image/background-img/space.jpg);
+       background-size: cover;
+}
+.row{
+    margin: 0 !important;
+}
+// slider container
+.background-container {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    // padding: 5.0rem;
+    padding: 6rem 1rem 0rem 10rem;
+  }
+  // slider content
+  h1.homeslider-heading {
+    color: var(--yellow-color);
+    margin-top: 8rem;
+    font-family: cursive;
+    font-size: 6rem;
+}
+.homeslider-subheading {
+    color: var(--white-color);
+}
+// home slider para
+.homeslider-container p {
+    color: var(--white-color);
+}
+p.slider-para {
+    display: none;
+}
+
+  //   slider image rotate
+  img.spin {
+    height: 160%;
+    width: 160%;
+}
+
+html body .owl-wrapper-outer {
+    border: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -o-border-radius: 4px;
+    border-radius: 0;
+    box-shadow: none;	
+}
+
+.silder_wrapper .owl-pagination {
+    top: -40px;
+}
+.silder_wrapper .owl-controls .owl-page {
+    border: 1.5px solid #ffffff;
+}
+.silder_wrapper .owl-controls .owl-page span {
+    background: #ffffff;
+    box-shadow: inset 0 0 3px rgba(255,255,255,0.3);
+   border-color:#ffffff;
+}
+html body .owl-carousel .owl-buttons .owl-prev, html body .owl-carousel .owl-buttons .owl-next {
+    background: var(--Carousle-button-background-color);
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 4px;
+    text-align: center;
+	opacity:0;
+  margin-left: 10px;
+}
+html body .owl-carousel:hover .owl-buttons .owl-prev, html body .owl-carousel:hover .owl-buttons .owl-next {
+	opacity:1;
+}
+
+html body .owl-carousel .owl-buttons .owl-prev:hover, html body .owl-carousel .owl-buttons .owl-next:hover {
+    background: #37a4dd;
+	
+}
+html body .owl-carousel .owl-buttons div i {
+    font-size: 18px;
+    color: #ffffff;
+}
+html body .owl-pagination {
+    text-align: center;
+    position: relative;
+}
+.owl-controls .owl-page {
+    border: 1.5px solid var(--white-color);
+	padding: 2px;
+	padding: 3px;
+    border-radius: 100%;
+}
+html body .owl-controls .owl-page span {
+    display: block;
+    width: 11px;
+    height: 11px;
+    background:var(--white-color);
+    border-radius: 100%;
+    box-shadow: inset 0 0 3px #0000004d;
+   border-color:#000;
+}
+html body .owl-controls .owl-page.active span {
+    background: var(--yellow-color);
+	border-color:var(--yellow-color);
+}
+html body .owl-controls .owl-page.active
+{
+	border-color:var(--yellow-color);
+}
+html body .owl-carousel {
+    margin: 0;
+	background: transparent;
+}
+
+
+/*
+*
+* ==========================================
+*   astrology revels the will of god
+* ==========================================
+*
+*/
+
+#about_us.about_section
+{
+    padding: 50px 0;
+    /* background:rgba(192, 255, 239, 0.465); */
+    background: linear-gradient(to right, rgb(203, 228, 249), rgb(205, 245, 246), rgb(239, 249, 218), rgb(249, 235, 223), rgb(249, 216, 214), rgb(214, 205, 234));
+}
+#about_us.about_section .row, #website_visitors.astrologers-work .row
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.about_page #about_us.about_section {
+    /* padding: 0px 0 50px; */
+    background: #ffffff;
+    margin-top: 0%;
+}
+#about_us.about_section h2, .about_section h3
+{
+    margin-bottom: 15px;
+}
+#about_us.about_section p
+{
+    line-height: 28px;
+    text-align: justify;
+	font-size: 16px;
+}
+#about_us.about_section h2.about_contact
+{
+    color: #37a4dd;
+    font-size: 36px;
+	font-weight: 700;
+}
+#about_us.about_section .about_text .btn
+{
+    margin-top: 5px;
+}
+#about_us.about_section img
+{
+    border-radius: 5px;
+    box-shadow: hsl(184, 100%, 21%) 0 0 16px;
+    background-color: hsl(0, 0%, 100%);
+    width: 100%;
+}
+
+
+/*
+*
+* ==========================================
+*        Choose Your Zodiac Sign
+* ==========================================
+*
+*/
+
+#zodiac_Sign.rashi_wrapper
+{
+	padding:50px 0 25px;
+	 background:rgba(248, 218, 223, 0.486); 
+}
+.heading_wrapper 
+{
+	text-align:center;
+}
+.heading_wrapper h2
+{
+    margin-bottom: 20px;
+}
+.heading_wrapper
+ {
+    max-width: 800px;
+    margin: auto;
+}
+.heading_wrapper p
+{
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+#zodiac_Sign.rashi_wrapper .rashi_sign_box 
+{
+	text-align: center;
+	background: linear-gradient(180deg, #ade9ec40, #ffb5e54a);
+	padding: 10px;
+	border-radius: 5px;
+	margin-bottom: 30px;
+	box-shadow: #00ffad4d 0px 4px 8px 0px, #72dbe82e 0px 6px 20px 0px;
+	width: 100%;
+}
+.sign_box_img img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+#zodiac_Sign.rashi_wrapper .rashi_sign_box  h4 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+#zodiac_Sign.rashi_wrapper .rashi_sign_box  p {
+    text-transform: capitalize;
+    font-size: 14px;
+}
+
+
+
+
+/*
+*
+* ==========================================
+*            Our Products section
+* ==========================================
+*
+*/
+
+/* products wrapper */
+#products.products_section
+{
+    padding: 50px 0;
+    /* background: rgb(0 255 231 / 8%); */
+    background: linear-gradient(to right, rgb(203, 228, 249), rgb(205, 245, 246), rgb(239, 249, 218), rgb(249, 235, 223), rgb(249, 216, 214), rgb(214, 205, 234));
+}
+#products.products_section .product-thumb
+{
+	min-height: 470px;
+    margin-bottom: 30px;
+}
+#products.products_section .product-thumb .image
+{
+    margin-bottom: 20px;
+    -webkit-box-shadow: 2px 3px 10px 0 rgba(0,0,0,.1);
+    box-shadow: 2px 3px 10px 0 rgba(0,0,0,.1);
+    background: white;
+	border-radius: 10px;
+	position: relative;
+}
+#products.products_section .product-thumb .image img 
+{
+	width:100%;
+}
+#products.products_section .product-thumb .caption
+{
+    text-align: center;
+}
+#products.products_section .product-thumb .caption .rating i
+{
+    font-size: 14px;
+    color:var(--secondary-color);
+    margin-bottom: 8px;
+}
+#products.products_section .product-thumb .caption h4
+{
+    margin-bottom: 8px;
+}
+#products.products_section .product-thumb .caption .price .price-old {
+    color: #797979;
+    text-decoration: line-through;
+    margin-right: 10px;
+    font-size: 13px;
+}
+#products.products_section .product-thumb .caption .price .price-new
+{
+	text-align: center;
+    font-size: 18px;
+    margin-top: 7px;
+    color: var(--secondary-color);
+}
+
+#products.products_section .product-thumb .button-group {
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+    opacity: 0;
+}
+
+#products.products_section .product-thumb .button-group > .inner {
+    background: rgb(0, 58, 105);
+    padding: 4px 7px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 2px 3px 1px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 3px 1px rgba(0,0,0,0.1);
+    display: inline-block;
+    vertical-align: top;
+}
+#products.products_section .product-thumb .button-group button {
+    width: auto;
+    border: none;
+    display: inline-block;
+    vertical-align: top;
+    width: 33px;
+    line-height: 1;
+    height: 33px;
+    padding: 0;
+    background-color: #fff;
+    color: #222222;
+    font-size: 16px;
+    font-weight: normal;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+	-webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+	outline:0;
+	border-right: 1px solid #eeeeee;
+}
+#products.products_section .product-thumb .button-group button:last-child {
+	border-right:0px solid #eeeeee;
+}
+#products.products_section .product-thumb .button-group button:hover {
+    background: var(--secondary-color);
+    color: #fff;
+}
+#products.products_section .product-thumb .button-cart:before {
+    content:"\f07a";
+}
+#products.products_section .product-thumb .button-group .button-quickview:before {
+    content:"\f06e";
+}
+#products.products_section .product-thumb .button-group button.button-wishlist:before {
+    content:"\f08a";
+}
+#products.products_section .product-thumb .button-group button.button-compare:before {
+    content:"\f24e";
+}
+#products.products_section .product-thumb .button-group button:before {
+    font-family: FontAwesome;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: inherit;
+    font-weight: normal;
+}
+#products.products_section .product-thumb .button-group button span {
+    display: none;
+}
+#products.products_section .product-thumb:hover .button-group {
+    opacity: 1;
+    bottom: 2rem;
+}
+#products.products_section .product-thumb .sale {
+    position: absolute;
+    left: 2rem;
+    top: 2rem;
+    min-width: 4rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 2rem;
+    height: 2rem;
+    z-index: 1;
+    text-align: center;
+    letter-spacing: 0;
+    border-radius: 5px;
+	background: var(--secondary-color);
+}
+#products.products_section .product-thumb .caption button i {
+    margin-right:3px;
+}
+
+
+/*
+*
+* ==========================================
+*     Our Astrologers Work for You 
+* ==========================================
+*
+*/
+
+#website_visitors.astrologers-work {
+    padding: 80px 0;
+    background-image:url(../assets/image/background-img/astro-work-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+	position: relative;
+    z-index: 0;
+}
+#website_visitors.astrologers-work:before {
+    // background-color: rgba(112, 4, 85, 0.5);
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+    background: linear-gradient(86deg, #2d4da7d1, #4b00ff00), url(https://downloader.la/temp/[Downloader.la]-6220777e0047e.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+#website_visitors.astrologers-work h2 {
+    font-size: 36px;
+    color:var(--yellow-color);
+    margin-bottom: 20px;
+}
+#website_visitors.astrologers-work p {
+    margin: 0 0 15px;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 31px;
+}
+#website_visitors.astrologers-work .astrologers_visitors .astrologers_experience h3
+{
+    background: var(--text-background-color);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    font-size: 70px;
+    font-weight: bold;
+	margin-bottom:10px;
+}
+#website_visitors.astrologers-work .astrologers_visitors .astrologers_experience
+{
+    text-align: center;
+    margin-bottom: 50px;
+}
+#website_visitors.astrologers-work .astrologers_visitors .astrologers_experience h5
+{
+    color: #ffffff;
+}
+
+
+
+
+
+
+/*
+*
+* ==========================================
+*             Our Services 
+* ==========================================
+*
+*/
+
+#services.services_section
+{
+    padding: 50px 0;
+	/* background: #ffffff; */
+    background: linear-gradient(to right,#CBE4F9, #CDF5F6,#EFF9DA,#F9EBDF,#F9D8D6,#D6CDEA);
+}
+
+#services.services_section .services_matter h4 {
+    font-size: 18px;
+    margin: 15px 0;
+}
+#services.services_section .services_matter h2
+{
+	margin: 15px 0;
+}
+#services.services_section .services_matter img  
+{
+    border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+}
+#services.services_section .services_matter
+{
+    margin-bottom: 30px;
+}
+#services.services_section .services_matter p {
+    margin: 0 0 15px;
+}
+
+
+/*
+*
+* ==========================================
+*           testimonial section
+* ==========================================
+*
+*/
+
+#testimonials.testimonial_section
+{
+	background:#f5ffffc2;
+	padding:50px 0;
+}
+
+#testimonials.testimonial_section .testimonial_inner_matter
+{
+    height: 430px;
+    padding: 20px;
+    background: #fff;
+    text-align: center;
+	box-shadow:0 0 3px rgba(0,0,0,.1);
+	border-radius: 10px;
+}
+#testimonials.testimonial_section .testimonial_inner_matter img {
+    vertical-align: middle;
+    margin-bottom: 25px;
+    border-radius: 100%;
+    max-width: 100px;
+    border: 1.5px dashed #37a4dd;
+    padding: 3px;
+}
+#testimonials.testimonial_section .testimonial_inner_matter h6
+{
+    color: #797979;
+    margin-top: 5px;
+    font-size: 13px;
+}
+#testimonials.testimonial_section .testimonial_inner_matter h5
+{
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+
+
+
+
+/*
+*
+* ==========================================
+*                Blog section
+* ==========================================
+*
+*/
+
+#blogs.blog_section
+{
+    padding: 50px 0;
+	background: #ffffff;
+}
+
+#blogs.blog_section .blog_inner_matter img
+{
+    width: 100%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+#blogs.blog_section .blog_inner_matter h3
+{
+    margin: 15px 0;
+    line-height: 30px;
+	font-size: 20.5px;
+}
+#blogs.blog_section .blog_inner_matter .admin_and_comments 
+{
+    margin: 15px 0 0;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+#blogs.blog_section .blog_inner_matter .admin_and_comments i
+{
+    color: #37a4dd;
+	margin-right: 2px;
+}
+#blogs.blog_section .blog_inner_matter .admin_and_comments .blog_admin
+{
+    margin-right: 10px;
+    border-right: 1px solid #eee;
+    padding-right: 10px;
+}
+#blogs.blog_section .blog_inner_matter .image
+{
+	position:relative;
+}
+#blogs.blog_section .blog_inner_matter .blog_date
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #37a4dd;
+    color: #ffffff;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 0 8px 0 0;
+}

@@ -1,0 +1,48 @@
+/*
+*
+* ==========================================
+*           Register Page
+* ==========================================
+*
+*/
+
+#register .signInclass
+{
+    margin-top: 14px;
+}
+#register button.btn
+{
+    margin-top: 5px;
+}
+
+#register ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    list-style: none;
+}
+#register ul li
+{
+    margin-bottom: 20px;
+}
+#register ul li i
+{
+    margin-right: 5px;
+    color: #37a4dd;
+}
+
+#register .registration p {
+    margin: 0 0 20px;
+}
+#register .custom-checkbox
+{
+    position: relative;
+}
+#register .custom-checkbox label
+{
+    margin-left: 20px;
+}
+
+#register .eb-form input[type=checkbox] {
+    margin-left: 0;
+}

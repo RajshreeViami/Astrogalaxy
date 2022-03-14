@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  // font-size: 10px;
+  font-size: 62.5% !important;
+}
+body {
+  // background-color: #fff;
+  
+   background: linear-gradient(to right, rgb(203, 228, 249), rgb(205, 245, 246), rgb(239, 249, 218), rgb(249, 235, 223), rgb(249, 216, 214), rgb(214, 205, 234)); 
+  font-family: "Poppins", sans-serif;
+  font-size: 1.4rem;
+  line-height: 2.6rem;
+  color: #122638;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.1;
+  font-weight: 600;
+  margin: 0 0 1.5rem 0;
+  padding: 0;
+  text-transform: capitalize;
+  font-family: "Comic Neue", cursive;
+}
+
+h1 {
+  font-size: 3.6rem;
+}
+h2 {
+  font-size: 3rem;
+}
+h3 {
+  font-size: 2.4rem;
+}
+h4 {
+  font-size: 1.8rem;
+}
+h5 {
+  font-size: 1.6rem;
+}
+h6 {
+  font-size: 1.4rem;
+}
+a {
+  /* color: #222222; */
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+/* a:hover {
+	text-decoration: none;
+	color: #ff7e00;
+} */
+.row {
+  padding-left: 7.875rem;
+  padding-right: 7.875rem;
+}
+
+.row .row {
+  padding: 0;
+}
+.clear {
+  clear: both;
+}
+
+.btn {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: 600;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 0.1rem solid transparent;
+  padding: 1rem 1.5rem;
+  font-size: 1.3rem;
+  color: #ffffff;
+  text-transform: uppercase;
+  transition: all 0.5s;
+  letter-spacing: 0.5;
+
+  background-image: var(--button-background-color);
+  margin: 10px;
+
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  background-position: right center;
+    color: #ffffff;
+
+}

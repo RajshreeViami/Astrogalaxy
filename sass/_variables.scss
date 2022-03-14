@@ -1,0 +1,32 @@
+:root {
+
+  // colors
+    --main-color: #00324d;
+    --primary-color: #ffa500;
+    --secondary-color: #f91942;
+    --secondary-hover-color: #e94d5b;
+    --white-color:#ffffff;
+    --black-color:#000000e6;
+    --light-black-color:#2f2f2f;
+    --light-gray-color:#666;
+    --green-color:#0ed692;
+    --yellow-color:#ffff00;
+    --blue-color:#0F45B3;
+    --light-blue-color:#2c64e6;
+    
+    // Gradient colors
+
+    --main-background-color:linear-gradient(180deg, #ade9ec40, #ffb5e54a);
+    --button-background-color:linear-gradient(to right, #00c6ff 0%, #0072ff  51%, #00c6ff  100%);
+    --Carousle-button-background-color:linear-gradient(318deg, #00c6ff96 0%, #0072ffcf 51%, #00c6ff 100%);
+    --text-background-color: -webkit-linear-gradient(#deec08, #e4ff00, #ff7600);;
+    --icon-background-color: -webkit-linear-gradient(#0f0bee61, #0072ffa6, #2200ff);
+    // background: linear-gradient(to bottom, #f4aa36 2%,#f37335 100%);
+    
+
+  //  Background Image
+   --breadcrump-background-color: linear-gradient(127deg, #2d4da75c, #4b00ff2e), url(../assets/image/background-img/breadcrumb_bg1.jpeg);
+   --footer-background-color: linear-gradient(127deg, #0d1c46, #4b00ff2e), url(../assets/image);
+  //  --footer-background-color: linear-gradient(127deg, #2d4da75c, #4b00ff2e), url(../assets/image/footer_bg.jpeg);
+
+  }

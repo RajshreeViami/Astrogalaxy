@@ -1,0 +1,57 @@
+/*
+*
+* ==========================================
+*         Contact Page
+* ==========================================
+*
+*/
+
+.contact-box-wrap {
+    background: white;
+    padding: 3rem 0 4rem 0;
+}
+.contact-box-item i {
+    color: var(--secondary-color) ;
+}
+h3.contact-title {
+    margin-block-end: 3rem;
+}
+.contact-box-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+    color: #333333;
+
+}
+
+.contact-box-wrap .top-header-social {
+    float: none;
+}
+.contact-box-wrap .top-header-social li {
+    margin-right: 15px;
+}
+.contact-box-item:first-child {
+    padding-top: 0;
+}
+.contact-box-item + .contact-box-item {
+    border-top: 1px solid #eee;
+}
+.contact-box-item {
+    padding-top: 27px;
+    padding-bottom: 27px;
+}
+.contact-box-title + * {
+    margin-top: 20px;
+}
+.contact-box-item .link-inline i
+{
+    margin-right: 5px;
+}
+.contact-box {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 25px;
+    border-left: 1px solid #eee;
+}

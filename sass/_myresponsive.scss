@@ -1,0 +1,347 @@
+/*
+*
+* ==========================================
+*  100px — 320px: Xtra Small devices
+* ==========================================
+*
+*/
+@media (max-width: 320px) {
+
+.row{
+  padding: 0;
+  flex-direction: column;
+}
+// logo
+.logo img{
+  width: 100%;
+}
+  // for of all pages
+  .section-head h4 {
+    font-size: 2.5rem !important;
+}
+.breadcrumb-content {
+  width: auto;
+}
+// About Page
+
+  p.about-astrogalaxy-para {
+    width: 260px !important;
+  }
+  
+  /*
+* ####################################
+*          Service Page
+* ####################################
+*/
+// Services Offered by AASTROGALAXY
+.Row-Services-Offered {
+  height: auto;
+  margin-block: 4rem;
+}
+.service-offer-list-para {
+flex-direction: column;
+}
+.girl-point-box {
+  display: flex;
+}
+img.girl-point-finger {
+  width: 50 vw;
+  margin-block-start: 0;
+  margin-inline-start: -3rem;
+}
+.services-offer-box-laptop{
+  display: none;
+}
+.services-offer-box-mobile {
+  display: flex;
+}
+h4.service-list-title {
+  font-size: 1.9rem;
+  align-self: center !important;
+}
+// key features of aastrogalaxy
+.item-service {
+ height: auto;
+}
+
+
+}
+
+/*
+*
+* ==========================================
+*  320px — 579px: Mobile devices
+* ==========================================
+*
+*/
+@media (min-width: 320px) and (max-width: 600px) {
+    body p {
+        font-size: 1.3rem !important;
+    }
+    h1 {
+      font-size: 2.6rem;
+    }
+    h2{
+      font-size: 1.8rem !important;
+    }
+
+    .row {
+      margin-right: 0px !important;
+    }
+    .container-fluid {
+      margin-right: 0 !important;
+    }
+    .sign_box_img img {
+      width: 20vw;
+      height: 10vh;
+  }
+  // for of all pages
+  .section-head h4 {
+    font-size: 2.6rem !important;
+}
+.breadcrumb-content {
+  width: auto;
+}
+
+
+    
+  /*
+* ####################################
+*           Home page
+* ####################################
+*/
+
+  // slider container
+  .background-container {
+    text-align: justify;
+    padding: 3rem 3rem 0rem 6rem;
+}
+  // slider content
+  h1.homeslider-heading {
+    font-size: 3.5rem;
+  }
+  h1.homeslider-subheading {
+    font-size: 2.2rem;
+}
+  // slider image rotate
+  img.spin {
+      height: 100%;
+      width: 100%;
+    }
+ // slides change controls
+  .owl-pagination {
+    margin-block-end: 4rem;
+}
+// Zodiac Sign Section
+.sign_box_img img {
+  width: 50%;
+  height: auto !important;
+}
+// Our astroloer work for you
+.astrologers-work h2 {
+  font-size: 2.2rem !important;
+}
+h3.number-counter {
+  font-size: 4rem !important;
+}
+
+
+  /*
+* ####################################
+*           About US
+* ####################################
+*/
+
+.breadcrumb-content h2 {
+  font-size: 3rem !important;
+}
+p.about-astrogalaxy-para {
+  width: 300px;
+}
+.about_images {
+  margin-block-end: 2rem;
+}
+  /*
+* ####################################
+*           Service page
+* ####################################
+*/
+// Services Offered by AASTROGALAXY
+.Row-Services-Offered {
+  height: auto;
+  margin-block: 4rem;
+}
+.service-offer-list-para {
+flex-direction: column;
+}
+.girl-point-box {
+  display: flex;
+}
+img.girl-point-finger {
+  width: 52vw;
+  margin-block-start: 0;
+  margin-inline-start: -3rem;
+}
+.service-offer-container {
+  padding-inline-start: 4rem;
+}
+.services-offer-box-laptop{
+  display: none;
+}
+.services-offer-box-mobile {
+  display: flex;
+}
+h4.service-list-title {
+  font-size: 1.9rem;
+  align-self: center !important;
+}
+  /*
+* ####################################
+*           Footer
+* ####################################
+*/
+
+#footer {
+  padding:0 !important;
+}
+
+// footer col-1
+#footer-logo {
+  width: 15vw;
+  width: auto;
+}
+div#footer-social {
+  margin:0 !important;
+}
+// footer col-2
+.footer-serviceicon {
+  width: 6vw !important;
+}
+// footer col-4
+p.footer-info {
+  font-size: 1.4rem !important;
+}
+
+.footer-service a {
+  font-size: 1.4rem !important;
+}
+// footer copyright area
+p.copyright-para{
+  font-size: 1.1rem !important;
+}
+
+/*
+* ####################################
+*           Contact page
+* ####################################
+*/
+  
+.contact-box {
+  padding-inline-start: 2rem;
+}
+p.contact-box-title {
+  font-size: 1.5rem !important;
+}
+
+
+}
+
+/*
+*
+* ==========================================
+*  600px — 768px: iPads, Tablets
+* ==========================================
+*
+*/
+@media (min-width: 600px) and (max-width: 767px) {
+
+  .row {
+    margin: 0px !important;
+  }
+  .container-fluid {
+    margin: 0 !important;
+  }
+  
+  /*
+* ####################################
+*           Footer
+* ####################################
+*/
+  // Services Offered by AASTROGALAXY
+  .services-offer-box-laptop{
+    display: none;
+  }
+
+}
+
+/*
+*
+* ==========================================
+*  769px — 1024px: Small screens, laptops
+* ==========================================
+*
+*/
+
+@media (min-width: 768px) and (max-width: 1204px){
+
+/*
+* ####################################
+*           service page
+* ####################################
+*/
+
+// Services Offered by AASTROGALAXY
+.services-offer-box-mobile {
+  display: none;
+}
+
+}
+
+/*
+*
+* ==========================================
+*  1025px — 1200px: Desktops, large screens
+* ==========================================
+*
+*/
+@media (min-width: 1025px) and (max-width: 1200px) {
+  
+/*
+* ####################################
+*           service page
+* ####################################
+*/
+
+// Services Offered by AASTROGALAXY
+.services-offer-box-mobile {
+  display: none;
+} 
+  
+}
+
+/*
+*
+* ==========================================
+*  1201px and more —  Extra large screens, TV
+* ==========================================
+*
+*/
+@media (min-width: 1201px) {
+
+/*
+* ####################################
+*           service page
+* ####################################
+*/
+
+// Services Offered by AASTROGALAXY
+img.girl-point-finger {
+  width: auto;
+  margin-inline-start: -9rem;
+}
+.services-offer-box-mobile {
+  display: none;
+} 
+  
+
+}

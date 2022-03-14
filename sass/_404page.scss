@@ -1,0 +1,42 @@
+/*
+*
+* ==========================================
+*           404page 
+* ==========================================
+*
+*/
+
+
+.not_found
+{
+    padding: 20px 0;
+    text-align: center;
+}
+.not_found img
+ {
+    max-width: 400px;
+    margin-bottom: 30px;
+}
+.not_found h2
+{
+    font-size: 60px;
+    letter-spacing: 0;
+}
+.not_found h1
+{
+    font-size: 200px;
+    display: inline-block;
+    padding: 0;
+    font-weight: 500;
+	font-family: 'Poppins', sans-serif;
+}
+.not_found h1 span
+{
+   color:  #ff7e00;
+   
+}
+.not_found .btn
+{
+    margin-top: 30px;
+    padding: 18px 40px;
+}

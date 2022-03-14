@@ -1,0 +1,309 @@
+/*
+*
+* ==========================================
+*    Services Offered by AASTROGALAXY
+* ==========================================
+*
+*/
+
+.services-offer-sec {
+    padding-block-start: 4rem;
+    // margin-block-start: 7rem;
+}
+.service-offer-title{
+    text-align: center;
+}
+.service-offer-container {
+    padding-block-start: 2rem;
+}
+// service Row
+.Row-Services-Offered {
+    // background: #f2950aa3;
+    background: url(../assets/image/background-img/i5.jpeg);
+    margin-block-start: 1rem;
+    height: 300px;
+    border-radius: 15% 15% 15% 15%;
+    margin-block-start: 13rem;
+}
+// left col
+img.girl-point-finger {
+    width: 37vw;;
+    margin-block-start: -12rem;
+}
+// right col
+.service-list-title {
+    color: #f4f6fa;
+    text-transform: uppercase;
+    font-size: 2.2rem;
+    font-weight: 900;
+}
+p.service-offer-para {
+    color: var(--white-color);
+    // font-family: cursive;
+    font-weight: 600;
+    text-decoration: underline;
+}
+.service-offer-list-para {
+    display: flex;
+    justify-content: space-around;
+}
+ul.service-offer-list {
+    color: var(--white-color);
+}
+
+// Services 
+.services-content {
+    padding-block: 0 !important;
+}
+.services_page #services.services_section {
+    padding: 0;
+    background:#005670;
+}
+
+#services.services_Section .services_images img {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+
+
+
+/*
+*
+* ==========================================
+*    Key Features of AASTROGALAXY
+* ==========================================
+*
+*/
+
+// icons images
+img.serviceimage {
+    width: 100%;
+}
+
+.services-span, a, a:hover {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    }
+    .section-head {
+    margin-bottom: 60px;
+    }
+    .section-head h4 {
+    position: relative;
+    padding:0;
+    color:var(--secondary-color);
+    line-height: 1;
+    letter-spacing:0.3px;
+    font-size: 34px;
+    font-weight: 700;  
+    text-align:center;
+    text-transform:none;
+    margin-bottom:30px;
+    }
+    .section-head h4:before {
+    content: '';
+    width: 60px;
+    height: 3px;
+    background: var(--secondary-color);
+    position: absolute;
+    left: 0px;
+    bottom: -10px;
+    right:0;  
+    margin:0 auto;
+    }
+    .section-head h4 .services-span {
+    font-weight: 700;
+    padding-bottom: 5px;
+    color:#2f2f2f
+    }
+    p.service_text{
+    color:#cccccc !important;
+    font-size:16px;
+    line-height:28px;
+    text-align:center;    
+    }
+    .section-head p, p.awesome_line{
+    color:#818181;
+    font-size:16px;
+    line-height:28px;
+    text-align:center;  
+    }
+    
+    .extra-text {
+    font-size:34px;
+    font-weight: 700;
+    color:#2f2f2f;
+    margin-bottom: 25px;
+    position:relative;
+    text-transform: none;
+    }
+    .extra-text::before {
+    content: '';
+    width: 60px;
+    height: 3px;
+    background: var(--secondary-color);
+    position: absolute;
+    left: 0px;
+    bottom: -10px;
+    right: 0;
+    margin: 0 auto;
+    }
+    .extra-text .services-span {
+    font-weight: 700;
+    color:var(--secondary-color);
+    }
+    .item-service {
+    height: 400px;
+    background: var(--white-color);
+    text-align: center;
+    padding: 30px 25px;
+    box-shadow:0 0px 25px #00000012;
+    border-radius: 20px;
+    border:5px solid #00000012;
+    margin-bottom: 30px;
+    transition: all .5s ease 0;
+    transition: all 0.5s ease 0s;
+    }
+    .item-service:hover{
+    background:var(--secondary-color);
+    box-shadow:0 8px 20px 0px #00000033;
+    transition: all .5s ease 0;
+    transition: all 0.5s ease 0s;
+    }
+    .item-service:hover .item-service, .item-service:hover .services-span.icon{
+    background:var(--white-color);
+    border-radius:10px;
+    -webkit-transition: all .5s ease 0;
+    transition: all .5s ease 0;
+    transition: all 0.5s ease 0s;
+    }
+    .item-service:hover h6, .item-service:hover p{
+    color:#fff;
+    -webkit-transition: all .5s ease 0;
+    transition: all .5s ease 0;
+    transition: all 0.5s ease 0s;
+    }
+    .item-service .icon {
+    font-size: 40px;
+    margin-bottom:25px;
+    color:  var(--secondary-color);   
+    width: 100px;
+    height: 100px;
+    line-height: 96px;
+    border-radius: 50px;
+    }
+    .item-service .feature_box_col_one{
+    background:rgba(247, 198, 5, 0.20);
+    color:var(--secondary-color);
+    }
+    .item-service .feature_box_col_two{
+    background:rgba(255, 77, 28, 0.15);
+    color:var(--secondary-color);
+    }
+    .item-service .feature_box_col_three{
+    background:rgba(0, 147, 38, 0.15);
+    color:var(--secondary-color);
+    }
+    .item-service .feature_box_col_four{
+    background:rgba(0, 108, 255, 0.15);
+    color:var(--secondary-color);
+    }
+    .item-service .feature_box_col_five{
+    background:rgba(146, 39, 255, 0.15);
+    color:var(--secondary-color);
+    }
+    .item-service .feature_box_col_six{
+    background:rgba(23, 39, 246, 0.15);
+    color:var(--secondary-color);
+    }
+    .item-service p{
+    font-size:1.4rem;
+    line-height:24px;
+    text-align: justify;
+    }
+    .item-service h6 {
+    margin-bottom:20px;
+    color:#2f2f2f;
+    font-size: 1.7rem;
+    }
+    .mission p {
+    margin-bottom: 10px;
+    font-size: 15px;
+    line-height: 28px;
+    font-weight: 500;
+    }
+    .mission i {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: var(--secondary-color);
+    border-radius: 50%;
+    color: #fff;
+    font-size: 25px;
+    }
+    .mission .small-text {
+    margin-left: 10px;
+    font-size: 13px;
+    color: var(--light-gray-color);
+    }
+    .skills {
+    padding-top:0px;
+    }
+    .skills .prog-item {
+    margin-bottom: 25px;
+    }
+    .skills .prog-item:last-child {
+    margin-bottom: 0;
+    }
+    .skills .prog-item p {
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 10px;
+    }
+    .skills .prog-item .skills-progress {
+    width: 100%;
+    height: 10px;
+    background: #e0e0e0;
+    border-radius:20px;
+    position: relative;
+    }
+    .skills .prog-item .skills-progress .services-span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background: var(--secondary-color);
+    width: 10%;
+    border-radius: 10px;
+    transition: all 1s;
+    }
+    .skills .prog-item .skills-progress .services-span:after {
+    content: attr(data-value);
+    position: absolute;
+    top: -5px;
+    right: 0;
+    font-size: 10px;
+    font-weight:600;    
+    color: var(--white-color);
+    background:var(--black-color);
+    padding: 3px 7px;
+    border-radius: 30px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
