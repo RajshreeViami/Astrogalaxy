@@ -986,6 +986,10 @@ img.logo-img {
   border-color: var(--secondary-color);
 }
 
+.UserAccount-icon {
+  width: 6vw !important;
+}
+
 /*
 *
 * ==========================================
@@ -3482,13 +3486,13 @@ tbody.cart-table {
 
 #cart .table-custom th {
   padding: 20px 25px;
-  font-size: 20px;
+  font-size: 1.5rem;
   line-height: 1.72;
   font-weight: 500;
   letter-spacing: 0.5px;
-  text-transform: capitalize;
+  text-transform: uppercase;
   color: #222222;
-  background: #f5f8ff;
+  background: #eee8e8;
   text-align: center;
 }
 
@@ -4160,9 +4164,6 @@ h3.contact-title {
   #category_product.category_product .product-thumb {
     min-height: 350px !important;
     margin-bottom: 20px;
-  }
-  #category_product.category_product h3, #category h3 {
-    font-size: 18px;
   }
   #products.products_section .product-thumb {
     min-height: 400px;
@@ -4902,6 +4903,9 @@ h3.contact-title {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .astrology-responsive-nav .others-option:before {
+    display: none;
+  }
   .logo img {
     width: 100%;
   }
@@ -4958,6 +4962,24 @@ h3.contact-title {
   .item-service {
     height: auto;
   }
+  /*
+* ####################################
+*          Products
+* ####################################
+*/
+  .row.product-list-row {
+    padding: 0;
+  }
+  .products-col {
+    margin-block: 3rem;
+  }
+  .product-thumb {
+    height: auto;
+  }
+  .product-thumb .sale {
+    top: 0 !important;
+    left: 0 !important;
+  }
 }
 
 /*
@@ -4992,6 +5014,9 @@ h3.contact-title {
   }
   .breadcrumb-content {
     width: auto;
+  }
+  .astrology-responsive-nav .others-option:before {
+    display: none;
   }
   /*
 * ####################################
@@ -5092,6 +5117,14 @@ h3.contact-title {
   }
   /*
 * ####################################
+*           Forecast
+* ####################################
+*/
+  .Forecast-image-box {
+    width: auto;
+  }
+  /*
+* ####################################
 *           Footer
 * ####################################
 */
@@ -5128,6 +5161,24 @@ h3.contact-title {
   }
   p.contact-box-title {
     font-size: 1.5rem !important;
+  }
+  /*
+* ####################################
+*           Products
+* ####################################
+*/
+  .row.product-list-row {
+    padding: 0;
+  }
+  .products-col {
+    margin-block: 3rem;
+  }
+  .product-thumb {
+    height: auto;
+  }
+  .product-thumb .sale {
+    top: 0 !important;
+    left: 0 !important;
   }
 }
 
