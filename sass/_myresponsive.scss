@@ -70,7 +70,7 @@ h4.service-list-title {
 /*
 *
 * ==========================================
-*  320px — 579px: Mobile devices
+*  320px — 600px: Mobile devices
 * ==========================================
 *
 */
@@ -79,7 +79,7 @@ h4.service-list-title {
         font-size: 1.4rem !important;
     }
     h1 {
-      font-size: 2.6rem;
+      font-size: 2.6rem !important;
     }
     h2{
       font-size: 1.8rem !important;
@@ -114,24 +114,28 @@ h4.service-list-title {
   // slider container
   .background-container {
     text-align: justify;
-    padding: 3rem 3rem 0rem 6rem;
+    padding: 3rem 1rem 0rem 6rem;
 }
   // slider content
   h1.homeslider-heading {
-    font-size: 3.5rem;
+    font-size: 3.5rem !important;
   }
   h1.homeslider-subheading {
-    font-size: 2.2rem;
+    font-size: 2.2rem !important;
 }
   // slider image rotate
+  .spin-image-col{
+    margin-inline-start: 4rem;
+  }
   img.spin {
-      height: 100%;
-      width: 100%;
+      width: 85%;
     }
  // slides change controls
   .owl-pagination {
+    top: 0 !important;
     margin-block-end: 4rem;
 }
+
 // Zodiac Sign Section
 .sign_box_img img {
   width: 50%;

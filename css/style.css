@@ -524,13 +524,13 @@ img.logo-img {
 
 #mySidenav .panel.mobile_menu_li {
   margin-bottom: 0;
-  background-color: #c9dcff;
+  background-color: var(--white-color);
   border-bottom: 1px solid #00195c !important;
   border-radius: 0;
   -webkit-box-shadow: none;
   box-shadow: none;
   border: 0;
-  padding: 15px 0;
+  padding: 8px 0;
 }
 
 #mySidenav h3 {
@@ -575,10 +575,9 @@ img.logo-img {
 }
 
 #mySidenav .menu_slid_bg {
-  background: #c9dcff;
+  background: var(--white-color);
   max-width: 250px;
   position: relative;
-  height: 100%;
   padding: 50px 15px;
 }
 
@@ -586,7 +585,6 @@ img.logo-img {
   list-style: none;
   padding: 0px;
   margin: 0;
-  max-height: 500px;
   overflow: auto;
 }
 
@@ -911,7 +909,7 @@ img.logo-img {
   content: '';
   position: absolute;
   left: 0;
-  top: 5px;
+  top: 15px;
   width: 2px;
   height: 25px;
   background-color: #bdbbcc;
@@ -4873,10 +4871,6 @@ h3.contact-title {
     width: 100%;
     float: left;
   }
-  #mySidenav ul {
-    max-height: 350px;
-    overflow: auto;
-  }
 }
 
 /*
@@ -4969,7 +4963,7 @@ h3.contact-title {
 /*
 *
 * ==========================================
-*  320px — 579px: Mobile devices
+*  320px — 600px: Mobile devices
 * ==========================================
 *
 */
@@ -4978,7 +4972,7 @@ h3.contact-title {
     font-size: 1.4rem !important;
   }
   h1 {
-    font-size: 2.6rem;
+    font-size: 2.6rem !important;
   }
   h2 {
     font-size: 1.8rem !important;
@@ -5006,19 +5000,23 @@ h3.contact-title {
 */
   .background-container {
     text-align: justify;
-    padding: 3rem 3rem 0rem 6rem;
+    padding: 3rem 1rem 0rem 6rem;
   }
   h1.homeslider-heading {
-    font-size: 3.5rem;
+    font-size: 3.5rem !important;
   }
   h1.homeslider-subheading {
-    font-size: 2.2rem;
+    font-size: 2.2rem !important;
+  }
+  .spin-image-col {
+    -webkit-margin-start: 4rem;
+            margin-inline-start: 4rem;
   }
   img.spin {
-    height: 100%;
-    width: 100%;
+    width: 85%;
   }
   .owl-pagination {
+    top: 0 !important;
     -webkit-margin-after: 4rem;
             margin-block-end: 4rem;
   }

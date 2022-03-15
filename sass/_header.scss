@@ -222,13 +222,13 @@ img.logo-img {
      
   #mySidenav .panel.mobile_menu_li {
       margin-bottom: 0;
-      background-color: #c9dcff;
+      background-color: var(--white-color);
       border-bottom: 1px solid rgb(0, 25, 92) !important;
       border-radius: 0;
       -webkit-box-shadow: none;
       box-shadow: none;
       border: 0;
-      padding: 15px 0;
+      padding: 8px 0;
   }
   #mySidenav h3
   {
@@ -267,17 +267,16 @@ img.logo-img {
       top: 15px;
   }
   #mySidenav .menu_slid_bg {
-      background: #c9dcff;
+      background: var(--white-color);
       max-width: 250px;
       position: relative;
-      height: 100%;
       padding: 50px 15px;
   }
   #mySidenav ul {
       list-style: none;
       padding: 0px;
       margin: 0;
-      max-height: 500px;
+      // max-height: 500px;
       overflow: auto;
   }
   
@@ -596,7 +595,7 @@ img.logo-img {
       content: '';
       position: absolute;
       left: 0;
-      top: 5px;
+      top: 15px;
       width: 2px;
       height: 25px;
       background-color: #bdbbcc;
