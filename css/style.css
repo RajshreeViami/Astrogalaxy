@@ -4904,7 +4904,7 @@ h3.contact-title {
     display: none;
   }
   .others-option .option-item .cart-btn {
-    font-size: 2.2rem;
+    font-size: 2rem;
   }
   .logo img {
     width: 100%;
@@ -5166,18 +5166,6 @@ h3.contact-title {
   }
   /*
 * ####################################
-*           Contact page
-* ####################################
-*/
-  .contact-box {
-    -webkit-padding-start: 2rem;
-            padding-inline-start: 2rem;
-  }
-  p.contact-box-title {
-    font-size: 1.5rem !important;
-  }
-  /*
-* ####################################
 *           Products
 * ####################################
 */
@@ -5193,6 +5181,33 @@ h3.contact-title {
   .product-thumb .sale {
     top: 0 !important;
     left: 0 !important;
+  }
+  /*
+* ####################################
+*          Blogs
+* ####################################
+*/
+  .blog-heading-wrapper {
+    -webkit-margin-before: 3rem;
+            margin-block-start: 3rem;
+  }
+  .admin_and_comments {
+    font-size: 1.3rem !important;
+  }
+  .blog-title {
+    font-size: 2.2rem !important;
+  }
+  /*
+* ####################################
+*           Contact page
+* ####################################
+*/
+  .contact-box {
+    -webkit-padding-start: 2rem;
+            padding-inline-start: 2rem;
+  }
+  p.contact-box-title {
+    font-size: 1.5rem !important;
   }
 }
 
